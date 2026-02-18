@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -59,8 +60,8 @@ export default function ChelseaPage() {
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <div className="w-80 h-80 bg-[#034694]/20 rounded-full blur-[100px]" />
           </div>
-          <div className="relative w-24 h-24 rounded-full bg-[#034694] flex items-center justify-center mx-auto mb-6 shadow-[0_0_60px_rgba(3,70,148,0.5)]">
-            <span className="text-4xl">🦁</span>
+          <div className="relative w-24 h-24 rounded-full bg-[#034694] flex items-center justify-center mx-auto mb-6 shadow-[0_0_60px_rgba(3,70,148,0.5)] overflow-hidden">
+            <Image src="/download.png" alt="Chelsea FC" width={96} height={96} className="object-contain" />
           </div>
           <h1 className="relative text-5xl md:text-6xl font-extrabold mb-4">
             <span className="text-white">Chelsea </span>

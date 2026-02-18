@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Chelsea() {
   return (
@@ -12,11 +13,8 @@ export default function Chelsea() {
 
           {/* Chelsea Badge */}
           <div className="relative flex-shrink-0">
-            <div className="w-24 h-24 rounded-full bg-[#034694] flex items-center justify-center shadow-[0_0_40px_rgba(3,70,148,0.5)]">
-              {/* CFC Lion crest placeholder */}
-              <svg viewBox="0 0 100 100" className="w-14 h-14 text-white" fill="currentColor">
-                <text x="50" y="68" textAnchor="middle" fontSize="60" fontWeight="bold">⚽</text>
-              </svg>
+            <div className="w-24 h-24 rounded-full bg-[#034694] flex items-center justify-center shadow-[0_0_40px_rgba(3,70,148,0.5)] overflow-hidden">
+              <Image src="/download.png" alt="Chelsea FC" width={96} height={96} className="object-contain" />
             </div>
           </div>
 
