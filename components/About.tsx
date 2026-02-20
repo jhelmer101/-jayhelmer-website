@@ -2,7 +2,7 @@ export default function About() {
   const highlights = [
     { value: "15+", label: "Years in Health Tech" },
     { value: "6", label: "Iconic Companies" },
-    { value: "M+", label: "Members Impacted" },
+    { value: "5M+", label: "Members Impacted" },
   ];
 
   return (
