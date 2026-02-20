@@ -15,21 +15,16 @@ export default function About() {
               About
             </p>
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              Building the future of{" "}
+              I&apos;ve spent 15+ years helping digital health companies find their footing in a complex market —{" "}
               <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-                digital health
+                building the partnerships, go-to-market strategies, and commercial relationships that turn great technology into real health outcomes for millions of people.
               </span>
             </h2>
             <p className="text-white/60 text-lg leading-relaxed mb-6">
-              I&apos;m a Growth Mindset business development professional dedicated to
-              helping people reach their health goals through scalable
-              technologies that engage, inform, and change behavior.
+              Digital health is full of companies with genuinely life-changing technology that never reaches the people who need it most. I&apos;ve dedicated my career to closing that gap — partnering with health plans, employers, and health systems to build the commercial bridges that scale innovative solutions from promising pilot to millions of members.
             </p>
             <p className="text-white/60 text-lg leading-relaxed">
-              Across early-stage startups and established organizations, I&apos;ve
-              partnered with health plans and employers to solve big health
-              challenges within their populations — delivering results from a
-              financial, clinical, and quality of life perspective.
+              Today I work with startups and growth-stage companies as an advisor and thought partner — helping founders navigate the health plan and employer landscape, sharpen their go-to-market strategy, and build the kind of partnerships that drive durable growth.
             </p>
           </div>
 
