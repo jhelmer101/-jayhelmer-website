@@ -23,9 +23,8 @@ export default function Hero() {
         </h1>
 
         {/* Tagline */}
-        <p className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto leading-relaxed mb-12">
-          Helping people reach their health goals through scalable technologies
-          that engage, inform, and change behavior.
+        <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto leading-relaxed mb-12">
+          I&apos;ve spent 15+ years helping digital health companies find their footing in a complex market — building the partnerships, go-to-market strategies, and commercial relationships that turn great technology into real health outcomes for millions of people.
         </p>
 
         {/* CTAs */}

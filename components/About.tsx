@@ -14,12 +14,6 @@ export default function About() {
             <p className="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-4">
               About
             </p>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              I&apos;ve spent 15+ years helping digital health companies find their footing in a complex market —{" "}
-              <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-                building the partnerships, go-to-market strategies, and commercial relationships that turn great technology into real health outcomes for millions of people.
-              </span>
-            </h2>
             <p className="text-white/60 text-lg leading-relaxed mb-6">
               Digital health is full of companies with genuinely life-changing technology that never reaches the people who need it most. I&apos;ve dedicated my career to closing that gap — partnering with health plans, employers, and health systems to build the commercial bridges that scale innovative solutions from promising pilot to millions of members.
             </p>
