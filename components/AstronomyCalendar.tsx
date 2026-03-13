@@ -39,7 +39,7 @@ export default function AstronomyCalendar() {
                 Subscribe on iPhone/Mac
               </a>
               <a
-                href="https://raw.githubusercontent.com/jhelmer101/astronomy-calendar/refs/heads/main/astronomy-calendar-2026.ics"
+                href="https://calendar.google.com/calendar/r/settings/addbyurl?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhelmer101%2Fastronomy-calendar%2Frefs%2Fheads%2Fmain%2Fastronomy-calendar-2026.ics"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold rounded-full text-sm transition-all hover:scale-105"
