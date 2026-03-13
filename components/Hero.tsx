@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6">
@@ -8,6 +10,20 @@ export default function Hero() {
       </div>
 
       <div className="relative max-w-5xl mx-auto text-center">
+        {/* Headshot */}
+        <div className="flex justify-center mb-8">
+          <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-white/10 shadow-[0_0_40px_rgba(59,130,246,0.2)]">
+            <Image
+              src="/headshot.jpg"
+              alt="Jay Helmer"
+              width={128}
+              height={128}
+              className="object-cover w-full h-full"
+              priority
+            />
+          </div>
+        </div>
+
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />

@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Companies from "@/components/Companies";
 import Chelsea from "@/components/Chelsea";
+import AstronomyCalendar from "@/components/AstronomyCalendar";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Experience />
       <Companies />
       <Chelsea />
+      <AstronomyCalendar />
       <Contact />
     </main>
   );
