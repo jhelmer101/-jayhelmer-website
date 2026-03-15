@@ -38,24 +38,29 @@ export default function Hero() {
           </span>
         </h1>
 
-        {/* Tagline */}
-        <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto leading-relaxed mb-12">
-          I&apos;ve spent 15+ years helping digital health companies find their footing in a complex market — building the partnerships, go-to-market strategies, and commercial relationships that turn great technology into real health outcomes for millions of people.
+        {/* Headline */}
+        <p className="text-2xl md:text-3xl font-bold text-white/90 max-w-3xl mx-auto leading-snug mb-6">
+          Turning great digital health technology into real partnerships that scale.
+        </p>
+
+        {/* Subheadline */}
+        <p className="text-lg md:text-xl text-white/50 max-w-2xl mx-auto leading-relaxed mb-12">
+          Health plans and employers don&apos;t buy technology — they buy trust, outcomes, and relationships. I&apos;ve spent 15 years building exactly that.
         </p>
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#experience"
+            href="#how-i-help"
             className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-full text-sm transition-all hover:scale-105"
           >
-            View My Experience
+            How I help
           </a>
           <a
             href="#contact"
             className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold rounded-full text-sm transition-all"
           >
-            Get in Touch
+            Work with me
           </a>
         </div>
       </div>

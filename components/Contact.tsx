@@ -17,9 +17,11 @@ export default function Contact() {
               together
             </span>
           </h2>
-          <p className="relative text-white/50 text-lg mb-12 max-w-xl mx-auto leading-relaxed">
-            Interested in exploring a partnership, BD opportunity, or just want
-            to connect? Reach out on LinkedIn or send me a message.
+          <p className="relative text-white/50 text-lg mb-4 max-w-xl mx-auto leading-relaxed">
+            I work with a small number of advisory clients at any given time, and I&apos;m selectively open to new engagements in 2026. If you&apos;re building something in digital health and need a partner who understands the health plan and employer market, I&apos;d like to hear from you.
+          </p>
+          <p className="relative text-white/30 text-sm mb-12 max-w-lg mx-auto">
+            Reach out on LinkedIn or by email to start a conversation.
           </p>
 
           <div className="relative flex flex-col sm:flex-row gap-4 justify-center">

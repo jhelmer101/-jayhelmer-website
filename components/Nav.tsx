@@ -2,9 +2,9 @@
 import { useState, useEffect } from "react";
 
 const links = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Contact", href: "#contact" },
+  { label: "How I help", href: "#how-i-help" },
+  { label: "Case studies", href: "#case-studies" },
+  { label: "Insights", href: "#insights" },
 ];
 
 export default function Nav() {
@@ -39,12 +39,10 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="https://www.linkedin.com/in/jayhelmer/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             className="text-sm font-semibold bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-full transition-colors"
           >
-            LinkedIn
+            Work with me
           </a>
         </div>
       </div>
